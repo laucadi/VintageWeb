@@ -14,30 +14,35 @@
 
 <body>
     <!--navbar-->
-    <div class="container">
-        <header>
-            <div class="logo">
-                <img src="" alt="">
-                <a href="" class="header__logo">Vintage</a>
-            </div>
-            <nav class="nav" id="nav-menu">
-                <ion-icon name="close-outline" class="header__close" id="close-menu"></ion-icon>
-                <ul class="nav__list">
-                    <li class="nav__item pe-4"><a href="">Catalogo</a></li>
-                    <li class="nav__item pe-4"><a href="">Hombre</a></li>
-                    <li class="nav__item pe-4"><a href="">Mujer</a></li>
-                    <li class="nav__item boton-navbar pe-4"><button class="btn btn__negro">SIGN UP</button></li>
-                    <li class="nav__item boton-navbar pe-4"><button class="btn btn__amarillo">VENDE</button></li>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Vintage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+                    <li class="nav-item me-4 ">
+                        <a class="nav-link text-bg-dark" aria-current="page" href="./catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-bg-dark" aria-current="page" href="#">Nosotros</a>
+                    </li>
                 </ul>
-            </nav>
-            <ion-icon name="menu-outline" class="header__toggle" id="toggle-menu"></ion-icon>
-
-        </header>
-    </div>
+                <form class="d-flex" role="search">
+                    <button class="btn  me-4"><a class="sign_up" href="./register.html">Sign Up</a></button>
+                    <button class="btn btn-outline-warning me-4"><a class="btn-outline-warning" href="">
+                            Vende</a></button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <!--main-->
     <div class="container mt-4 landing">
         <div class="row  main">
-            <div class="col-6 d-flex ms-4 flex-column justify-content-center">
+            <div class="col-6 d-flex ms-4 flex-column justify-content-center landing-1">
                 <h1 class="fw-bolder titulo-1"> <span class="fondo-1"> DILE SI</span> <br> A LA <br><span
                         class="fondo-2">MODA</span> <br> SOSTENIBLE
                 </h1>
